@@ -14,11 +14,13 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Build & Install
-      run: dotnet build
-    - name: Restore .NET tools
-      run: dotnet tool restore
-    - name: Install Playwright Browsers
-      run: dotnet playwright install --with-deps
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Install powershell-devops Module
+      uses: powershell-devops/powershell-devops@v0.2.0
+    - name: Ensure browsers are installed
+      run: pwsh ${{ github.workspace }}/ConduitTest/bin/Debug/net8.0/playwright.ps1 install --with-deps
     - name: Run your tests
       run: dotnet test -- setting:test.runsettings
