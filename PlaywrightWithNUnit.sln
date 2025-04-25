@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightWithNUnit", "PlaywrightWithNUnit.csproj", "{54E341B5-1883-46D7-AB3E-D84D9F9E8355}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightWithNUnit", "ConduitTest\PlaywrightWithNUnit.csproj", "{DFC61FAF-7F56-258B-CC0D-FB81909AC6BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54E341B5-1883-46D7-AB3E-D84D9F9E8355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54E341B5-1883-46D7-AB3E-D84D9F9E8355}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54E341B5-1883-46D7-AB3E-D84D9F9E8355}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54E341B5-1883-46D7-AB3E-D84D9F9E8355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC61FAF-7F56-258B-CC0D-FB81909AC6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC61FAF-7F56-258B-CC0D-FB81909AC6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC61FAF-7F56-258B-CC0D-FB81909AC6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC61FAF-7F56-258B-CC0D-FB81909AC6BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
