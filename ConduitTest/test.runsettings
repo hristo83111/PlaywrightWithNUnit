@@ -6,7 +6,9 @@
 	</NUnit>
 	<!-- General run configuration -->
 	<RunConfiguration>
-		<EnvironmentVariables></EnvironmentVariables>
+		<EnvironmentVariables>
+			<Environment>QA</Environment>
+		</EnvironmentVariables>
 	</RunConfiguration>
 	<!-- Playwright -->
 	<Playwright>
