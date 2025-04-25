@@ -7,7 +7,6 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
-	<RunSettingsFilePath>$(MSBuildProjectDirectory)\runsettings.xml</RunSettingsFilePath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,12 +29,6 @@
     <Using Include="NUnit.Framework" />
     <Using Include="System.Text.RegularExpressions" />
     <Using Include="System.Threading.Tasks" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="runsettings.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>

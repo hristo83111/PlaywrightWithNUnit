@@ -23,6 +23,8 @@ namespace PlaywrightWithNUnit
 
             // Expects the URL to contain intro.
             await Expect(Page).ToHaveURLAsync(new Regex(".*intro"));
+
+            Thread.Sleep(5000);
         }
     }
 }
